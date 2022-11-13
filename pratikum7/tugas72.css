@@ -1,0 +1,40 @@
+.kotakhijau{
+    width: 98%;
+    height: 95px;
+    border-style: solid;
+    margin: 25px;
+    background-color: greenyellow;
+}
+
+.kotakorange{
+    width: 70%;
+    height: 230px;
+    float: right;
+    border-style: solid;
+    background-color: orangered;
+}
+
+.kotakkuning1{
+    width: 20%;
+    height: 230px;
+    border-style: solid;
+    background-color: yellow;
+    margin: 10px
+
+}
+
+.kotakbiru{
+    width: 70%;
+    height: 230px;
+    float: right;
+    border-style: solid;
+    background-color: aqua;
+}
+
+.kotakkuning2{
+    width: 20%;
+    height: 230px;
+    border-style: solid;
+    background-color: yellow;
+    margin: 10px;
+}
