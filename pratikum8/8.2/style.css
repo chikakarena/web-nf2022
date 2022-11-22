@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(214, 120, 172);
+    padding: 1rem;
+}
+
+main {
+    display: flex;
+    flex: 1;
+}
+
+main article {
+    flex: 2;
+}
+
+
+main aside {
+    background-color: rgb(19, 63, 65);
+    flex: 1;
+}
+
+main nav {
+    background-color: aqua;
+    flex: 1;
+}
+
+footer {
+    background-color: rgb(240, 25, 193);
+    padding: 1rem;
+}
