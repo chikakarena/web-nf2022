@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mengitung jumlah dua bilangan</title>
+
+    <script>
+
+        function calc() 
+        {
+            let A1 = document.getElementById ("angka1").value;
+            let A2 = document.getElementById ("angka2").value;
+            let hasil = (parseInt(A1) + parseInt(A2));
+
+            document.getElementById("hasil").value = hasil;
+        }
+        
+    </script>
+
+</head>
+<body>
+   
+    <h1>Menghitung Jumlah dua Bilangan</h1> 
+    <br>
+
+    <input type="number" id="angka1" onchange="calc()">
+    <br>
+        <h2>+</h2>
+    <input type="number" id="angka2" onchange="calc()">
+        <h2>=</h2>
+    <input type="number" id="hasil" readonly disabled>
+
+
+</body>
+</html>
